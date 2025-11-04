@@ -14,7 +14,7 @@ const App = () => {
             <Home />
 
             <div className="text-sm text-gray-500 mt-6">
-                Powered By @SheryiansAI
+                Powered By @GenAI
             </div>
         </div>
     );

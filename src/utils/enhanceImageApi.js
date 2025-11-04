@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "YOUR_API_KEY"; // Replace with your actual API key
+const API_KEY =import.meta.env.VITE_API_KEY_PICWISH; 
 const BASE_URL = "https://techhk.aoscdn.com/";
 const MAXIMUM_RETRIES = 20;
 
@@ -75,4 +75,4 @@ const fetchEnhancedImage = async (taskId) => {
     return data.data;
 };
 
-// {status: 200, message: "success", data: {task_id: "187b1adc-b35f-46d7-8670-47f88f89fd73"}}
+
